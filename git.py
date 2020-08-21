@@ -1,3 +1,4 @@
+#To find given string is a pangram or not...
 string=input("Enter the string:")
 refstring="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 sum=0
