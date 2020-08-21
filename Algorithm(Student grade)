@@ -1,17 +1,17 @@
 Step1: Start 
 Step2: Input marks of subjects S1,S2,S3,S4,S5,S6
-Step3: total:=(S1+S2+S3+S4+S5+S6)
+Step3: set total:=(S1+S2+S3+S4+S5+S6)
 Step4: percentage:=(total/600)*100
 Step5: if(percentage>=90)
-          print("A grade")
+          print "A grade"
        elif(percentage>=80)
-          print("B grade")
+          print "B grade"
        elif(percentage>=70)
-          print("C grade")
+          print "C grade"
        elif(percentage>=60)
-          print("D grade")
+          print "D grade"
        elif(percentage>=50)
-          print("E grade")
+          print "E grade"
        else:
-          print("Fail")
+          print "Fail"
 Step6: End 
