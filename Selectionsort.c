@@ -1,4 +1,5 @@
 #include<stdio.h>
+void selectionsort(int a[] , int n);
 int main()
 {
     int a[100];
@@ -23,7 +24,7 @@ int main()
     }
     return 0;
 }
-int selectionsort(int a[],int n)
+void selectionsort(int a[],int n)
 {
     int i,j,min,temp;
     for(i=0;i<n-1;i++)
@@ -31,12 +32,11 @@ int selectionsort(int a[],int n)
         min=i;
         for(j=i+1;j<n;j++)
         {
-            if(a[j]<a[min]);
+            if(a[j]<a[min])
             min=j;
         }
         temp=a[min];
         a[min]=a[i];
         a[i]=temp;
     }
-    return 0;
 }
